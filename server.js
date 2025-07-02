@@ -12,7 +12,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 dbConnect();
-const allowedOrigin = ['http://localhost:5173'];
+const allowedOrigin = ['https://2a8b7218.user-verify.pages.dev'];
 
 app.use(express.json());
 app.use(cookieParser());
